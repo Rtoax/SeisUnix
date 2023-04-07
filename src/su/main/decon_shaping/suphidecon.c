@@ -4,6 +4,9 @@
 #include "su.h"
 #include "segy.h"
 #include "header.h"
+#ifndef isfinite
+#define isfinite(x) __builtin_isfinite (x)
+#endif
 
 /*********************** self documentation *****************************/
 char *sdoc[] = {

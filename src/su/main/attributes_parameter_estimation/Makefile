@@ -6,7 +6,7 @@ include $(CWPROOT)/src/Makefile.config
 D = $L/libcwp.a $L/libpar.a $L/libsu.a
 
 
-LFLAGS= $(PRELFLAGS) -L$L -lsu -lpar -lcwp -lm $(POSTLFLAGS)
+LFLAGS= $(PRELFLAGS) -L$L -lsu -lpar -lcwp -lm $(POSTLFLAGS) -ltirpc
 
 
 PROGS =			\

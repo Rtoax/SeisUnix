@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 
+
 /*
 #ifdef SUXDR
 #include <rpc/types.h>
@@ -20,10 +21,9 @@
 #else
 #include <tirpc/rpc/types.h>
 #include <tirpc/rpc/xdr.h>
+#include <tirpc/netconfig.h>
 #endif
 #endif
-
-
 
 
 
